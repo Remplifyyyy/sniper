@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "remplify-ahsniper",
+	"version": "${version}",
+	"name": "Remplify AH Sniper",
+	"description": "Watches the auction house for items on your snipe list and buys them when they are listed under your max price.",
+	"authors": ["Remplify"],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/remplify-ahsniper/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.remplify.ahsniper.AhSniperClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
